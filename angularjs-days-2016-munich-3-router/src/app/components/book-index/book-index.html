@@ -1,0 +1,4 @@
+Our books:
+<div *ngFor="#book of books" >
+    <book (titleClicked)="handleTitleClickEvent()" [book]="book"></book>
+</div>
